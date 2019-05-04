@@ -1,0 +1,8 @@
+Este comando lista os ficheiros:
+$ ls -l
+Agora podemos ordenar estes ficheiros:
+$| sort
+Escolher os três primeiros:
+$| head -3
+E escolher os dois últimos (VAI DAR ERRO POR ISSO FICA INALTERADO, espero):
+$| tail -xxx

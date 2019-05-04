@@ -1,0 +1,64 @@
+Este comando lista os ficheiros:
+$ ls -l
+>>>
+total 172
+-rwxrwxrwx 1 thol thol   107 Jun  2 10:20 Makefile
+-rwxrwxrwx 1 thol thol 82989 Jun  2 16:58 Relatório-SO.pdf
+-rwxrwxrwx 1 thol thol  4145 Jun  2 19:17 book.nb
+-rwxrwxrwx 1 thol thol 21559 Jun  2 19:26 main.c
+-rwxrwxrwx 1 thol thol 15224 Jun  2 19:26 main.o
+-rwxrwxrwx 1 thol thol 17560 Jun  2 19:26 notebook
+-rwxrwxrwx 1 thol thol    45 Jun  2 19:26 temp.txt
+-rwxrwxrwx 1 thol thol   218 Jun  2 19:24 teste4.nb
+-rwxrwxrwx 1 thol thol   694 Jun  2 19:19 teste5.nb
+-rwxrwxrwx 1 thol thol  1057 Jun  2 19:17 teste9.nb
+<<<
+Devolver só as linhas com a palavra teste:
+$| grep teste
+>>>
+-rwxrwxrwx 1 thol thol   218 Jun  2 19:24 teste4.nb
+-rwxrwxrwx 1 thol thol   694 Jun  2 19:19 teste5.nb
+-rwxrwxrwx 1 thol thol  1057 Jun  2 19:17 teste9.nb
+<<<
+Este lista de novo noutro formato:
+$ ls 
+>>>
+Makefile
+Relatório-SO.pdf
+book.nb
+main.c
+main.o
+notebook
+temp.txt
+teste4.nb
+teste5.nb
+teste9.nb
+<<<
+Este devolve só as linhas com a palavra nb:
+$| grep nb
+>>>
+book.nb
+teste4.nb
+teste5.nb
+teste9.nb
+<<<
+Este devolve o número de palavras:
+$| wc
+>>>
+      4       4      38
+<<<
+E este a diretoria:
+$ pwd
+>>>
+/mnt/c/Users/Thol/Desktop/Freikugel
+<<<
+Este escreve "Hello World":
+$ echo Hello_World!
+>>>
+Hello_World!
+<<<
+Este dá reverse:
+$| rev
+>>>
+!dlroW_olleH
+<<<
